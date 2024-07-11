@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tu Tienda de Productos</h1>
+    </header>
+    <main>
+        <section class="productos">
+            <h2>Mis Productos</h2>
+            <ul id="lista-productos"></ul>
+        </section>
+        <section class="formulario">
+            <h2>Agregar Producto:</h2>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Nombre del producto" required>
+                <input type="number" id="precio" placeholder="Precio del producto" required>
+                <input type="url" id="imagen" placeholder="URL de la imagen" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por [Tu Nombre]</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
